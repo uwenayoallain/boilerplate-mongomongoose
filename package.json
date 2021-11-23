@@ -1,0 +1,31 @@
+{
+	"name": "fcc-learn-mongodb",
+	"version": "1.0.0",
+	"author": "UWENAYO Alain Pacifique",
+	"description": "A package.json file generator for FCC",
+	"keywords": [
+		"freecodecamp",
+		"backend-api",
+		"backend"
+	],
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"mongodb": "^4.2.0",
+		"mongoose": "^6.0.13",
+		"nodemon": "^2.0.15"
+	},
+	"license": "MIT",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/uwenayoallain/boilerplate-npm"
+	},
+	"bugs": {
+		"url": "https://github.com/uwenayoallain/boilerplate-npm/issues"
+	},
+	"homepage": "https://fcc-backend-apis.herokuapp.com/"
+}
